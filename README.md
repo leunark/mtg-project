@@ -2,7 +2,7 @@
 # Bid Data - Practical Exam
 Create MTG Trading Card Database by API
 
-# dll
+## dll
 Contains two SQL files:
 - "mtg_cards.sql" --> for HIVE
 - "mtg_cards.psql" --> for POSTGRES
@@ -10,7 +10,7 @@ Contains two SQL files:
 ## final
 Folder to save locally the generated "mtg_cards_final.csv"
 
-# jobs
+## jobs
 Main workflow "mtg_workflow.kjb" contains 4 other jobss:
 - IMPORT: "mtg_export.kjb"
 Starts a shell script "scripts/mtgPageDownloader.sh" that is downloading all the files from https://api.magicthegathering.io/v1/cards?page=<pagenumber>
@@ -28,24 +28,24 @@ Starts a shell script "scripts/hdfsMoveData.sh" that is creating required hdfs p
 The last step EXPORT contains a transformation "transformations/mtg_export.ktr"
 First it truncates and resets the psql table in order to write the read new data from Hive to Postgres 
 
-# transformations
+## transformations
 Two transformations "mtg_parse.ktr" and "mtg_export.ktr" described above.
 
-# kettle
+## kettle
 Contains "kettle.properties", set these in your pentaho environment!
 Properties are documented inside.
 
-# scripts
+## scripts
 Two bash scripts "hdfsMoveData.sh" and "mtgPageDownloader.sh" desbribed above.
 
-# frontend
+## frontend
 Classic Fronted with: 
 - HTML
 - MaterializeCSS
 - Javascript
 - jQuery
 
-# installation
+## installation
 1. Install Dependencies
 - Hadoop
 - Hive2
