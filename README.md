@@ -1,11 +1,11 @@
-# Bid Data - Practical Exam
+# Big Data - Practical Exam
 # mtg-project
 Create MTG Trading Card Database by API
 
 ## dll
 Contains two SQL files:
-- "mtg_cards.sql" --> for HIVE
-- "mtg_cards.psql" --> for POSTGRES
+- "mtg_cards.sql" --> for HIVE --> you may have to edit the hdfs location depending on panteho kettle.properties
+- "mtg_cards.psql" --> for POSTGRES --> RECOMMENDED: YOU MAY HAVE TO REMOVE THE UNIQUE CONSTRAINT!!!
 
 ## final
 Folder to save locally the generated "mtg_cards_final.csv"
