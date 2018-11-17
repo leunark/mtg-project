@@ -3,6 +3,5 @@ id SERIAL PRIMARY KEY,
 name text,
 multiverseid text,
 type text,
-imageUrl text,
-CONSTRAINT ak_mtg_cards UNIQUE(name,multiverseid,type,imageUrl) 
+imageUrl text
 );
