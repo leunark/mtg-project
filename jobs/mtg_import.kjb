@@ -320,7 +320,7 @@
       <name>mtgPageDownloader.sh</name>
       <description/>
       <type>SHELL</type>
-      <filename>/home/hadoop/mtg/scripts/mtgPageDownloader.sh</filename>
+      <filename>${MTG_LOCAL_DIRECTORY}/scripts/mtgPageDownloader.sh</filename>
       <work_directory/>
       <arg_from_previous>N</arg_from_previous>
       <exec_per_row>N</exec_per_row>
@@ -333,6 +333,7 @@
       <insertScript>N</insertScript>
       <script/>
       <loglevel>Basic</loglevel>
+      <argument0>${MTG_LOCAL_DIRECTORY}/raw</argument0>
       <parallel>N</parallel>
       <draw>Y</draw>
       <nr>0</nr>

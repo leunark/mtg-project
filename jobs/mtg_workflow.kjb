@@ -322,7 +322,7 @@
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/mtg_import.kjb</filename>
+      <filename>${MTG_LOCAL_DIRECTORY}/jobs/mtg_import.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -356,7 +356,7 @@
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/mtg_parse.kjb</filename>
+      <filename>${MTG_LOCAL_DIRECTORY}/jobs/mtg_parse.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -390,7 +390,7 @@
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/mtg_move.kjb</filename>
+      <filename>${MTG_LOCAL_DIRECTORY}/jobs/mtg_move.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>
@@ -435,7 +435,7 @@
       <type>JOB</type>
       <specification_method>filename</specification_method>
       <job_object_id/>
-      <filename>${Internal.Entry.Current.Directory}/mtg_export.kjb</filename>
+      <filename>${MTG_LOCAL_DIRECTORY}/jobs/mtg_export.kjb</filename>
       <jobname/>
       <arg_from_previous>N</arg_from_previous>
       <params_from_previous>N</params_from_previous>

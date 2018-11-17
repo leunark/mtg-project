@@ -1,8 +1,8 @@
 #!/bin/bash
 
-filename=mtg_cards_final.csv
-hdfsdir=/user/hadoop/mtg/final
-filepath=/home/hadoop/mtg/final/$filename
+filename=$1.csv
+hdfsdir=$2/final
+filepath=$3/final/$filename
 
 if [ -e  $filepath ]
 then

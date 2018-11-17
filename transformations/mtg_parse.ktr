@@ -472,7 +472,7 @@
     <fileNameField/>
     <create_parent_folder>Y</create_parent_folder>
     <file>
-      <name>/home/hadoop/mtg/final/mtg_cards_final</name>
+      <name>${MTG_LOCAL_DIRECTORY}/final/mtg_cards_final</name>
       <servlet_output>N</servlet_output>
       <do_not_open_new_file_init>N</do_not_open_new_file_init>
       <extention>csv</extention>
@@ -574,7 +574,7 @@
     <defaultPathLeafToNull>Y</defaultPathLeafToNull>
     <rownum_field/>
     <file>
-      <name>/home/hadoop/mtg/raw</name>
+      <name>${MTG_LOCAL_DIRECTORY}/raw</name>
       <filemask>page.*</filemask>
       <exclude_filemask/>
       <file_required>N</file_required>

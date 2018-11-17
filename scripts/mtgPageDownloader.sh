@@ -1,6 +1,6 @@
 #!/bin/bash
 
-destination=/home/hadoop/mtg/raw
+destination=$1
 checker='rel="last"'
 counter=1
 
@@ -22,5 +22,8 @@ do
 	((counter++))
 	curl -I -s -o .tmpheader https://api.magicthegathering.io/v1/cards?page=$counter
 done
+
+curl -s -o $destination/page$counter.json  https://api.magicthegathering.io/v1/cards?page=$counter
+echo "Downloaded Page $counter"
 
 echo "All pages have been downloaded successfully!"
